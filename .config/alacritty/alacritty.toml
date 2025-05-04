@@ -20,7 +20,7 @@ bindings = [{ key = "F11", action = "ToggleFullscreen" }]
 normal = { family = "Monaspace Neon Var", style = "Regular" }
 bold = { family = "Monaspace Neon Var", style = "Bold" }
 italic = { family = "Monaspace Neon Var", style = "Italic" }
-size = 10
+size = 12
 
 # Catppuccin Latte
 
