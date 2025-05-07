@@ -15,6 +15,8 @@ return {
         integrations = {
           markdown = true,
           render_markdown = true,
+          blink_cmp = true,
+          gitsigns = true,
         },
       })
       vim.cmd.colorscheme("catppuccin")

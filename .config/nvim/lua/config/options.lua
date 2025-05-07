@@ -4,4 +4,4 @@
 
 vim.cmd([[set colorcolumn=80]])
 
--- vim.cmd([[set guicursor=n-v-c-sm-i-ci:block,ve:ver25,r-cr-o:hor20]])
+vim.cmd([[set guicursor=n-v-c-sm-i-ci:block,ve:ver25,r-cr-o:hor20]])
