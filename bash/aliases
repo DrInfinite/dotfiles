@@ -1,11 +1,12 @@
 # File system
-alias ls='eza -lh --group-directories-first --icons=auto'
+alias ls='eza -lh --group-directories-first --icons=auto --color=auto'
 alias lsa='ls -a'
-alias lt='eza --tree --level=2 --long --icons --git'
+alias lt='eza --tree --level=2 --long --icons --git --color=auto'
 alias lta='lt -a'
 alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
 alias fd='fdfind'
 alias cd='z'
+alias grep='rg --color=auto'
 
 # Directories
 alias ..='cd ..'
@@ -20,7 +21,6 @@ alias r='rails'
 alias lzg='lazygit'
 alias lzd='lazydocker'
 alias vim='nvim'
-alias grep='rg'
 
 # Git
 alias gcm='git commit -m'
@@ -44,3 +44,4 @@ webm2mp4() {
 # Custom
 alias on="~/bash/scripts/obsidian/new-note"
 alias setup_font="~/bash/scripts/setup/setup_font.sh"
+alias setup_arch="~/bash/scripts/setup/setup_arch.sh"

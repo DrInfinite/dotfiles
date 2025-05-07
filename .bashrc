@@ -5,13 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-source ~/bash/rc
-
-fastfetch
+source "$HOME/bash/rc"
 
 # pnpm
 export PNPM_HOME="/home/naparajith/.local/share/mise/installs/node/22.14.0/bin/pnpm"
