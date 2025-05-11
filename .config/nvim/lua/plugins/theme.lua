@@ -11,7 +11,7 @@ return {
           light = "latte",
           dark = "mocha",
         },
-        transparent_background = false,
+        transparent_background = true,
         integrations = {
           markdown = true,
           render_markdown = true,
