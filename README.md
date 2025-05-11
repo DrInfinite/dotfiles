@@ -8,7 +8,8 @@
   - [Installation](#installation)
 <!--toc:end-->
 
-This directory contains the dotfiles for my system
+This directory contains the dotfiles for my system, made available under the
+[MIT License](./LICENSE) for personal, professional and commercial use without warranty.
 
 ## Requirements
 
