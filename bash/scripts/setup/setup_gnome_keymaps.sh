@@ -4,6 +4,9 @@ gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
 # Make it easy to maximize like you can fill left/right
 gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
 
+# Make it easy to press the escape key
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape_shifted_capslock']"
+
 # Make it easy to resize undecorated windows
 gsettings set org.gnome.desktop.wm.keybindings begin-resize "['<Super>BackSpace']"
 
