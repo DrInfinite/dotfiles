@@ -42,7 +42,7 @@ webm2mp4() {
 }
 
 # Custom
-alias on="~/bash/scripts/obsidian/new-note"
+alias on="~/bash/scripts/obsidian/new-note.sh"
 alias setup_font="~/bash/scripts/setup/setup_font.sh"
 alias setup_arch="~/bash/scripts/setup/setup_arch.sh"
 alias setup_firmware="~/bash/scripts/setup/setup_firmware.sh"
