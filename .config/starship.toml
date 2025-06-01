@@ -31,10 +31,7 @@ $line_break\
 $character
 """
 
-right_format = """
-$cmd_duration
-"""
-palette = 'catppuccin_latte'
+palette = 'catppuccin_frappe'
 
 [os]
 disabled = false
@@ -164,11 +161,11 @@ vimcmd_replace_symbol = '[❮](bold fg:blue)'
 vimcmd_visual_symbol = '[❮](bold fg:yellow)'
 
 [cmd_duration]
-show_milliseconds = true
+show_milliseconds = false
 format = "[[  in $duration ](fg:crust bg:mauve)]($style)"
 style = "bg:blue"
 disabled = false
-show_notifications = true
+show_notifications = false
 min_time_to_notify = 45000
 
 [palettes.catppuccin_mocha]
