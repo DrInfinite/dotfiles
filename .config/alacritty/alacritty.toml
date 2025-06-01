@@ -22,6 +22,9 @@ italic = { family = "Monaspace Neon Var", style = "Italic" }
 bold_italic = { family = "Monaspace Neon Var", style = "Bold Italic" }
 size = 11
 
+[scrolling]
+history = 5000
+
 # Catppuccin Latte
 
 [colors.primary]
