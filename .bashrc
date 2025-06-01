@@ -17,7 +17,7 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-export MANPAGER="nvim +Man!"
+export MANPAGER='nvim +Man! "+set number relativenumber"'
 export MANWIDTH=80
 . "$HOME/.cargo/env"
 
