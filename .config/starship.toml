@@ -1,5 +1,8 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+add_newline = true
+continuation_prompt = "[▸▹ ](dimmed white)"
+
 format = """
 [░▒▓](red)\
 $os\
@@ -19,16 +22,19 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:green bg:sapphire)\
-$conda\
-[](fg:sapphire bg:lavender)\
+[](fg:green bg:blue)\
 $time\
-[ ](fg:lavender)\
+[](fg:blue bg:mauve)\
 $cmd_duration\
+[ ](mauve)\
 $line_break\
+$character
 """
 
-palette = 'catppuccin_frappe'
+right_format = """
+$cmd_duration
+"""
+palette = 'catppuccin_latte'
 
 [os]
 disabled = false
@@ -130,20 +136,20 @@ format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 
 [docker_context]
 symbol = ""
-style = "bg:sapphire"
-format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
+style = "bg:mauve"
+format = '[[ $symbol( $context) ](fg:crust bg:mauve)]($style)'
 
 [conda]
 symbol = "  "
-style = "fg:crust bg:sapphire"
+style = "fg:crust bg:mauve"
 format = '[$symbol$environment ]($style)'
 ignore_base = false
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:lavender"
-format = '[[  $time ](fg:crust bg:lavender)]($style)'
+style = "bg:blue"
+format = '[[  $time ](fg:crust bg:blue)]($style)'
 
 [line_break]
 disabled = true
@@ -153,14 +159,14 @@ disabled = false
 success_symbol = '[❯](bold fg:green)'
 error_symbol = '[❯](bold fg:red)'
 vimcmd_symbol = '[❮](bold fg:green)'
-vimcmd_replace_one_symbol = '[❮](bold fg:lavender)'
-vimcmd_replace_symbol = '[❮](bold fg:lavender)'
+vimcmd_replace_one_symbol = '[❮](bold fg:blue)'
+vimcmd_replace_symbol = '[❮](bold fg:blue)'
 vimcmd_visual_symbol = '[❮](bold fg:yellow)'
 
 [cmd_duration]
 show_milliseconds = true
-format = " in $duration "
-style = "bg:lavender"
+format = "[[  in $duration ](fg:crust bg:mauve)]($style)"
+style = "bg:blue"
 disabled = false
 show_notifications = true
 min_time_to_notify = 45000
