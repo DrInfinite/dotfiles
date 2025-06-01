@@ -135,9 +135,15 @@
       "keyColor": "magenta"
     },
     {
+      "type": "command",
+      "shell": "/bin/bash",
+      "key": "  Remain ",
+      "text": "~/.config/fastfetch/remaining.sh",
+      "keyColor": "magenta"
+    },
+    {
       "type": "custom",
       "format": "\u001b[90m└────────────────────────────────────────────────────┘"
-    },
-    "break"
+    }
   ]
 }
