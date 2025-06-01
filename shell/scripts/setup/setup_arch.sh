@@ -1,9 +1,11 @@
-bash ./setup_yay.sh
-bash ./setup_font.sh
-bash ./setup_firmware.sh
-bash ./setup_programs.sh
+#!/bin/bash
+
+bash ~/shell/scripts/setup/setup_yay.sh
+bash ~/shell/scripts/setup/setup_font.sh
+bash ~/shell/scripts/setup/setup_firmware.sh
+bash ~/shell/scripts/setup/setup_programs.sh
 
 # setup gnome settings
-bash ./setup_gnome_settings.sh
-bash ./setup_gnome_extensions.sh
-bash ./setup_gnome_keymaps.sh
+bash ~/shell/scripts/setup/setup_gnome_settings.sh
+bash ~/shell/scripts/setup/setup_gnome_extensions.sh
+bash ~/shell/scripts/setup/setup_gnome_keymaps.sh
