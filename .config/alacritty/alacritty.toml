@@ -6,9 +6,8 @@ program = "zellij"
 args = ["-l", "welcome"]
 
 [window]
-padding.x = 18
-padding.y = 14
 decorations = "none"
+padding = { x = 18, y = 14 }
 opacity = 0.95
 blur = true
 startup_mode = "Maximized"
