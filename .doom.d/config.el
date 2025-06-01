@@ -78,3 +78,5 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+(setq-default fill-column 80)
+(add-hook 'prog-mode-hook #'display-fill-column-indicator-mode)
