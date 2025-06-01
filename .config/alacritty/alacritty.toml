@@ -7,7 +7,7 @@ args = ["-l", "welcome"]
 
 [window]
 decorations = "none"
-padding = { x = 18, y = 14 }
+padding = { x = 8, y = 8 }
 opacity = 0.95
 blur = true
 startup_mode = "Maximized"
