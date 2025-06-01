@@ -2,3 +2,5 @@
 go = "latest"
 node = "lts"
 rust = "latest"
+
+[env]
