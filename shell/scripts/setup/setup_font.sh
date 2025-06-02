@@ -1,5 +1,3 @@
-#!/usr/bin/zsh
-
 # Set the target directory
 TARGET_DIR="$HOME/Downloads/monaspace"
 

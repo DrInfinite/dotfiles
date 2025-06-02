@@ -1,5 +1,3 @@
-#!/usr/bin/zsh
-
 eval "$(fzf --zsh)"
 eval "$(zellij setup --generate-auto-start zsh)"
 eval "$(mise activate zsh)"

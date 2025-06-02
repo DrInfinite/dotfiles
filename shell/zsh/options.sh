@@ -1,5 +1,3 @@
-#!/usr/bin/zsh
-
 # History
 ## Variables
 HISTSIZE=5000

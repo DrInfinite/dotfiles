@@ -3,7 +3,7 @@ alias ls='eza -lh --group-directories-first --icons=auto --color=auto'
 alias lsa='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git --color=auto'
 alias lta='lt -a'
-alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
+alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias find='fd -H --color=always'
 alias cd='z'
 alias grep='rg --color=auto'
@@ -43,9 +43,9 @@ webm2mp4() {
 }
 
 # Custom
-alias on="~/shell/bash/scripts/obsidian/new-note.sh"
-alias setup_font="~/shell/bash/scripts/setup/setup_font.sh"
-alias setup_arch="~/shell/bash/scripts/setup/setup_arch.sh"
-alias setup_firmware="~/shell/bash/scripts/setup/setup_firmware.sh"
-alias setup_emacs="~/shell/bash/scripts/setup/setup_emacs.sh"
+alias on="~/shell/scripts/obsidian/new-note.sh"
+alias setup_font="~/shell/scripts/setup/setup_font.sh"
+alias setup_arch="~/shell/scripts/setup/setup_arch.sh"
+alias setup_firmware="~/shell/scripts/setup/setup_firmware.sh"
+alias setup_emacs="~/shell/scripts/setup/setup_emacs.sh"
 alias doom="~/.emacs.d/bin/doom"

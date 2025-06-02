@@ -1,5 +1,3 @@
-#!/usr/bin/zsh
-
 # Alt+F4 is very cumbersome
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
 

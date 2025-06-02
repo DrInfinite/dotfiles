@@ -1,5 +1,3 @@
-#!/bin/bash
-
 yay -Sy extension-manager
 sudo pacman -Sy python-pipx gum
 pipx install gnome-extensions-cli --system-site-packages --force
