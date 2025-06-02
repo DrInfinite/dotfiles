@@ -7,7 +7,7 @@
 
 PS1='[\u@\h \W]\$ '
 
-source "$HOME/shell/rc.sh"
+source "$HOME/shell/bash/rc.sh"
 
 # pnpm
 export PNPM_HOME="/home/naparajith/.local/share/mise/installs/node/22.14.0/bin/pnpm"
