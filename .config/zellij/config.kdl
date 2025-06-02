@@ -1,5 +1,3 @@
-pane_frames false
-
 ui {
     pane_frames {
         hide_session_name false
@@ -244,8 +242,6 @@ keybinds clear-defaults=true {
     }
 }
 
-theme "catppuccin-latte"
-default_layout "compact"
 on_force_close "quit"
 
 // Plugin aliases - can be used to change the implementation of Zellij
@@ -262,7 +258,7 @@ plugins {
     strider location="zellij:strider"
     tab-bar location="zellij:tab-bar"
     welcome-screen location="zellij:session-manager" {
-        welcome_screen true
+        welcome_screen false
     }
 }
 
@@ -282,7 +278,7 @@ load_plugins {
 // Choose the theme that is specified in the themes section.
 // Default: default
 // 
-// theme "dracula"
+theme "catppuccin-latte"
  
 // Choose the base input mode of zellij.
 // Default: normal
@@ -301,7 +297,7 @@ default_mode "normal"
 // The name of the default layout to load on startup
 // Default: "default"
 // 
-// default_layout "compact"
+default_layout "compact"
  
 // The folder in which Zellij will look for layouts
 // (Requires restart)
