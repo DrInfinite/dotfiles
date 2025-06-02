@@ -22,13 +22,15 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:green bg:blue)\
-$time\
-[](fg:blue bg:mauve)\
-$cmd_duration\
-[ ](mauve)\
+[](green)\
 $line_break\
 $character
+"""
+
+right_format = """[](mauve)\
+$cmd_duration\
+[](fg:blue bg:mauve)\
+$time[▓▒░](blue)
 """
 
 palette = 'catppuccin_frappe'
