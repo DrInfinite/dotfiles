@@ -1,0 +1,14 @@
+[[plugin.deps]]
+use = "Lil-Dank/lazygit"
+rev = "7a08a09"
+hash = "a1fa2b3e1826c3a34804ea8c548e9f80"
+
+[[plugin.deps]]
+use = "imsi32/yatline"
+rev = "4872af0"
+hash = "d32742ded0e73146a8ca590fdc4fb404"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-latte"
+rev = "d04a298"
+hash = "a4d508772dc7b20d739a2f9a1d2d396f"
