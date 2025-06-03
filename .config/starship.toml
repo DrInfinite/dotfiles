@@ -33,7 +33,7 @@ $cmd_duration\
 $time[▓▒░](blue)
 """
 
-palette = 'catppuccin_frappe'
+palette = 'catppuccin_latte'
 
 [os]
 disabled = false
