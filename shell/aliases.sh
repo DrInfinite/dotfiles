@@ -22,6 +22,7 @@ alias lzg='lazygit'
 alias lzd='lazydocker'
 alias vim='nvim'
 alias cat='bat'
+alias man='wikiman'
 
 # Git
 alias gcm='git commit -m'
