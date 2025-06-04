@@ -20,6 +20,8 @@ bold = { family = "Monaspace Neon Var", style = "Bold" }
 italic = { family = "Monaspace Neon Var", style = "Italic" }
 bold_italic = { family = "Monaspace Neon Var", style = "Bold Italic" }
 size = 11
+offset = { x = 0, y = 0 }
+glyph_offset = { x = 1, y = 1 }
 
 [scrolling]
 history = 5000
