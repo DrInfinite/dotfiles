@@ -4,3 +4,4 @@ source ~/shell/colours.sh
 source ~/shell/zsh/shell.sh
 source ~/shell/zsh/plugins.sh
 source ~/shell/zsh/options.sh
+source ~/shell/env.sh

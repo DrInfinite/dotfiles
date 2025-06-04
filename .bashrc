@@ -9,14 +9,6 @@ PS1='[\u@\h \W]\$ '
 
 source "$HOME/shell/bash/rc.sh"
 
-# pnpm
-export PNPM_HOME="/home/naparajith/.local/share/mise/installs/node/22.14.0/bin/pnpm"
-case ":$PATH:" in
-*":$PNPM_HOME:"*) ;;
-*) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-
 export MANPAGER='nvim +Man! "+set number relativenumber"'
 export MANWIDTH=80
 . "$HOME/.cargo/env"
