@@ -5,6 +5,7 @@ sudo pacman -Syu
 ~/shell/scripts/setup/setup_font.sh
 ~/shell/scripts/setup/setup_firmware.sh
 ~/shell/scripts/setup/setup_programs.sh
+~/shell/scripts/setup/setup_docker.sh
 
 # setup gnome settings
 ~/shell/scripts/setup/setup_gnome_settings.sh
