@@ -22,8 +22,9 @@
 ;; accept. For example:
 ;;
 (setq doom-font (font-spec :family "Monaspace Neon" :size 14 :weight 'medium)
-     doom-variable-pitch-font (font-spec :family "Monaspace Neon Var" :size 14))
-;;
+     doom-variable-pitch-font (font-spec :family "Monaspace Neon Var" :size 14)
+     doom-big-font (font-spec :family "Monaspace Neon" :size 24))
+
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
 ;; refresh your font settings. If Emacs still can't find your font, it likely
@@ -38,12 +39,11 @@
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
-(setq display-line-numbers-type t)
+(setq display-line-numbers-type 'relative)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/Documents/org/")
-
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
@@ -77,5 +77,6 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+;; Add a colour column indicating 80 characters
 (setq-default fill-column 80)
 (add-hook 'prog-mode-hook #'display-fill-column-indicator-mode)

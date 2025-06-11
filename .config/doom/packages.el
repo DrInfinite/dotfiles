@@ -50,3 +50,6 @@
 
 ;; Add Catppuccin
 (package! catppuccin-theme)
+
+;; Add Evil Tutor (to better understand and learn Emacs Evil Mode)
+(package! evil-tutor)
