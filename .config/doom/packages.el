@@ -48,4 +48,5 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 
+;; Add Catppuccin
 (package! catppuccin-theme)
