@@ -1,2 +1,5 @@
 .emacs.d/
 .git/
+
+*.m3u
+kewlibrary
