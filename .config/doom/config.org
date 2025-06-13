@@ -7,6 +7,7 @@
 * TABLE OF CONTENTS :toc:
 - [[#appearance][APPEARANCE]]
   - [[#font][FONT]]
+  - [[#dashboard][DASHBOARD]]
   - [[#theme][THEME]]
   - [[#cursor][CURSOR]]
 - [[#evil-mode-settings][EVIL MODE SETTINGS]]
@@ -39,6 +40,39 @@ If you or Emacs can't find your font, use 'M-x describe-font' to look them
 up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
 refresh your font settings. If Emacs still can't find your font, it likely
 wasn't installed correctly. Font issues are rarely Doom issues!
+
+** DASHBOARD
+Use a Custom ASCII Banner for the Dashboard with the ANSI Shadow style and Blue ASCII Art
+
+#+begin_src emacs-lisp
+(defun doom-dashboard-draw-ascii-banner-fn ()
+  (let* ((banner
+          '("███████╗███╗   ██╗ █████╗ ██████╗ ███████╗"
+            "██╔════╝████╗  ██║██╔══██╗██╔══██╗██╔════╝"
+            "█████╗  ██╔██╗ ██║███████║██████╔╝███████╗"
+            "██╔══╝  ██║╚██╗██║██╔══██║██╔═══╝ ╚════██║"
+            "███████╗██║ ╚████║██║  ██║██║     ███████║"
+            "╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚══════╝"
+            "                                          "))
+         (longest-line (apply #'max (mapcar #'length banner))))
+    (put-text-property
+     (point)
+     (dolist (line banner (point))
+       (insert (+doom-dashboard--center
+                +doom-dashboard--width
+                (concat
+                 line (make-string (max 0 (- longest-line (length line)))
+                                   32)))
+               "\n"))
+     'face 'doom-dashboard-banner)))
+#+end_src
+
+Setup colours to match Vim and Fastfetch
+
+#+begin_src emacs-lisp
+(custom-set-faces!
+  '(doom-dashboard-banner :foreground "#1e66f5"))
+#+end_src
 
 ** THEME
 There are two ways to load a theme. Both assume the theme is installed and
