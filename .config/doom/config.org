@@ -10,7 +10,7 @@
   - [[#theme][THEME]]
   - [[#cursor][CURSOR]]
 - [[#evil-mode-settings][EVIL MODE SETTINGS]]
-- [[#org-mode][ORG MODE]]
+- [[#org-mode-settings][ORG MODE SETTINGS]]
 - [[#notes][NOTES]]
 
 * APPEARANCE
@@ -77,7 +77,7 @@ Enable coloured column at 80 characters
 (add-hook 'prog-mode-hook #'display-fill-column-indicator-mode)
 #+end_src
 
-* ORG MODE
+* ORG MODE SETTINGS
 If you use 'org' and don't want your org files in the default location below,
 change 'org-directory'. It must be set before org loads!
 
