@@ -5,6 +5,9 @@
 (setq doom-theme 'catppuccin)
 (setq catppuccin-flavor 'latte) ;; or 'latte, 'macchiato, or 'mocha
 
+(setq-default cursor-type 'box)
+(setq evil-insert-state-cursor 'box)
+
 (setq display-line-numbers-type 'relative)
 
 (setq-default fill-column 80)
