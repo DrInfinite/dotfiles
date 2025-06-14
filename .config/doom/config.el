@@ -43,3 +43,5 @@
 (add-hook 'org-mode-hook 'org-indent-mode)
 
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+(setq org-startup-numerated t)

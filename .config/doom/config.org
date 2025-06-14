@@ -89,6 +89,7 @@ Set global theme based on installed packages
 
 ** CURSOR
 Set the cursor as a block cursor for insert mode
+
 #+begin_src emacs-lisp
 (setq-default cursor-type 'box)
 (setq evil-insert-state-cursor 'box)
@@ -130,6 +131,12 @@ Enable Org Bullets
 
 #+begin_src emacs-lisp
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+#+end_src
+
+Enable Dynamic Headline Numbering globally for all org-mode files
+
+#+begin_src emacs-lisp
+(setq org-startup-numerated t)
 #+end_src
 
 * NOTES
