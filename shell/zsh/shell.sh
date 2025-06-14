@@ -2,8 +2,7 @@
 # source /usr/share/bash-completion/bash_completion
 
 # Keybindings
-bindkey -e
-bindkey '^P' history-search-backward
-bindkey '^N' history-search-forward
+bindkey -v
 
+# Completions
 source /usr/share/wikiman/widgets/widget.zsh
