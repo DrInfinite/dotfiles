@@ -1,4 +1,4 @@
-local catppuccin_theme = require("yatline-catppuccin"):setup("latte") -- or "mocha" | "frappe" | "macchiato"
+local catppuccin_theme = require("yatline-catppuccin"):setup("mocha") -- "latte" | "mocha" | "frappe" | "macchiato"
 
 require("yatline"):setup({
 	theme = catppuccin_theme,

@@ -24,10 +24,10 @@
      'face 'doom-dashboard-banner)))
 
 (custom-set-faces!
-  '(doom-dashboard-banner :foreground "#1e66f5"))
+  '(doom-dashboard-banner :foreground "#89b4fa"))
 
 (setq doom-theme 'catppuccin)
-(setq catppuccin-flavor 'latte) ;; or 'latte, 'macchiato, or 'mocha
+(setq catppuccin-flavor 'mocha) ;; can be 'latte, 'frappe, 'macchiato, or 'mocha
 
 (setq-default cursor-type 'box)
 (setq evil-insert-state-cursor 'box)

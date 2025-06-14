@@ -71,7 +71,7 @@ Setup colours to match Vim and Fastfetch
 
 #+begin_src emacs-lisp
 (custom-set-faces!
-  '(doom-dashboard-banner :foreground "#1e66f5"))
+  '(doom-dashboard-banner :foreground "#89b4fa"))
 #+end_src
 
 ** THEME
@@ -84,7 +84,7 @@ Set global theme based on installed packages
 
 #+begin_src emacs-lisp
 (setq doom-theme 'catppuccin)
-(setq catppuccin-flavor 'latte) ;; or 'latte, 'macchiato, or 'mocha
+(setq catppuccin-flavor 'mocha) ;; can be 'latte, 'frappe, 'macchiato, or 'mocha
 #+end_src
 
 ** CURSOR
