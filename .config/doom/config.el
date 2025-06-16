@@ -10,7 +10,8 @@
             "██╔══╝  ██║╚██╗██║██╔══██║██╔═══╝ ╚════██║"
             "███████╗██║ ╚████║██║  ██║██║     ███████║"
             "╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚══════╝"
-            "                                          "))
+            "                                          "
+            "                 E M A C S                "))
          (longest-line (apply #'max (mapcar #'length banner))))
     (put-text-property
      (point)
@@ -45,3 +46,7 @@
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 (setq org-startup-numerated t)
+
+(define-key global-map (kbd "M-c") 'capitalize-dwim)
+(define-key global-map (kbd "M-u") 'upcase-dwim)
+(define-key global-map (kbd "M-l") 'downcase-dwim)

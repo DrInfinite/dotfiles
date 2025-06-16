@@ -12,6 +12,7 @@
   - [[#cursor][CURSOR]]
 - [[#evil-mode-settings][EVIL MODE SETTINGS]]
 - [[#org-mode-settings][ORG MODE SETTINGS]]
+  - [[#keybindings][KEYBINDINGS]]
 - [[#notes][NOTES]]
 
 * APPEARANCE
@@ -53,7 +54,8 @@ Use a Custom ASCII Banner for the Dashboard with the ANSI Shadow style and Blue 
             "██╔══╝  ██║╚██╗██║██╔══██║██╔═══╝ ╚════██║"
             "███████╗██║ ╚████║██║  ██║██║     ███████║"
             "╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚══════╝"
-            "                                          "))
+            "                                          "
+            "                 E M A C S                "))
          (longest-line (apply #'max (mapcar #'length banner))))
     (put-text-property
      (point)
@@ -66,6 +68,9 @@ Use a Custom ASCII Banner for the Dashboard with the ANSI Shadow style and Blue 
                "\n"))
      'face 'doom-dashboard-banner)))
 #+end_src
+
+#+RESULTS:
+: doom-dashboard-draw-ascii-banner-fn
 
 Setup colours to match Vim and Fastfetch
 
@@ -137,6 +142,14 @@ Enable Dynamic Headline Numbering globally for all org-mode files
 
 #+begin_src emacs-lisp
 (setq org-startup-numerated t)
+#+end_src
+
+** KEYBINDINGS
+
+#+begin_src emacs-lisp
+(define-key global-map (kbd "M-c") 'capitalize-dwim)
+(define-key global-map (kbd "M-u") 'upcase-dwim)
+(define-key global-map (kbd "M-l") 'downcase-dwim)
 #+end_src
 
 * NOTES
