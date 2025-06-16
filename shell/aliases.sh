@@ -29,9 +29,6 @@ alias gcm='git commit -m'
 alias gcam='git commit -a -m'
 alias gcad='git commit -a --amend'
 
-# FastFetch
-# alias fastfetch='fastfetch --logo Blackarch --logo-color-1 blue --logo-color-2 blue --logo-color-3 red'
-
 # Compression
 compress() { tar -czf "${1%/}.tar.gz" "${1%/}"; }
 alias decompress="tar -xzf"
