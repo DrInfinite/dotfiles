@@ -4,154 +4,161 @@
     "source": "~/.config/fastfetch/logo.txt",
     "color": {
       "1": "blue",
-      "2": "red"
+      "2": "red",
     },
     "height": 15,
     "width": 30,
     "padding": {
       "top": 4,
       "left": 6,
-      "right": 6
-    }
+      "right": 6,
+    },
   },
   "modules": [
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+      "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐",
     },
     {
       "type": "host",
       "key": " PC",
-      "keyColor": "green"
+      "keyColor": "green",
     },
     {
       "type": "cpu",
       "key": "│ ├",
       "showPeCoreCount": true,
-      "keyColor": "green"
+      "keyColor": "green",
     },
     {
       "type": "gpu",
       "key": "│ ├",
       "detectionMethod": "pci",
-      "keyColor": "green"
+      "keyColor": "green",
     },
     {
       "type": "display",
       "key": "│ ├󱄄",
-      "keyColor": "green"
+      "keyColor": "green",
     },
     {
       "type": "disk",
       "key": "│ ├󰋊",
-      "keyColor": "green"
+      "keyColor": "green",
     },
     {
       "type": "memory",
       "key": "│ ├",
-      "keyColor": "green"
+      "keyColor": "green",
     },
     {
       "type": "swap",
       "key": "└ └󰓡 ",
-      "keyColor": "green"
+      "keyColor": "green",
     },
     {
       "type": "custom",
-      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘",
     },
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+      "format": "\u001b[90m┌──────────────────────Software──────────────────────┐",
     },
     {
       "type": "os",
       "key": " OS",
-      "keyColor": "yellow"
+      "keyColor": "yellow",
     },
     {
       "type": "kernel",
       "key": "│ ├",
-      "keyColor": "yellow"
+      "keyColor": "yellow",
     },
     {
       "type": "packages",
       "key": "│ ├󰏖",
-      "keyColor": "yellow"
+      "keyColor": "yellow",
     },
     {
       "type": "shell",
       "key": "└ └",
-      "keyColor": "yellow"
+      "keyColor": "yellow",
     },
     "break",
     {
       "type": "de",
       "key": " DE",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "wm",
       "key": "│ ├",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "wmtheme",
       "key": "│ ├󰉼",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "icons",
       "key": "│ ├󰀻",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "cursor",
       "key": "│ ├",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "terminalfont",
       "key": "│ ├",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "terminal",
       "key": "└ └",
-      "keyColor": "red"
+      "keyColor": "red",
     },
     {
       "type": "custom",
-      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘",
     },
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌────────────────────Uptime / Age────────────────────┐"
+      "format": "\u001b[90m┌────────────────────Uptime / Age────────────────────┐",
     },
+    // {
+    //   "type": "command",
+    //   "key": "  OS Age ",
+    //   "keyColor": "magenta",
+    //   "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    // },
     {
       "type": "command",
       "key": "  OS Age ",
+      "shell": "/bin/bash",
+      "text": "~/.config/fastfetch/elapsed.sh",
       "keyColor": "magenta",
-      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
     },
     {
       "type": "uptime",
       "key": "  Uptime ",
-      "keyColor": "magenta"
+      "keyColor": "magenta",
     },
     {
       "type": "command",
       "shell": "/bin/bash",
       "key": "  Remain ",
       "text": "~/.config/fastfetch/remaining.sh",
-      "keyColor": "magenta"
+      "keyColor": "magenta",
     },
     {
       "type": "custom",
-      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
-    }
-  ]
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘",
+    },
+  ],
 }
