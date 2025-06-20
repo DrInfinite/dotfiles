@@ -1,4 +1,4 @@
-yay -Sy extension-manager
+yay -Sy extension-manager nwg-look catppuccin-gtk-theme-mocha
 sudo pacman -Sy python-pipx gum
 pipx install gnome-extensions-cli --system-site-packages --force
 
