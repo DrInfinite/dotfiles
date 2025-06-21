@@ -13,3 +13,6 @@ gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
 # Set Alacritty as the default tty application
 gsettings set org.gnome.desktop.default-applications.terminal exec alacritty
 gsettings set org.gnome.desktop.default-applications.terminal exec-arg "--working-directory"
+
+# Set mouse cursor to a reasonable size
+gsettings set org.gnome.desktop.interface cursor-size 30
