@@ -1,4 +1,4 @@
-sudo pacman -S emacs gum
+sudo pacman -S emacs gum --needed
 
 rm -rf ~/.emacs.d
 

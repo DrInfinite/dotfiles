@@ -1,5 +1,5 @@
 # Install Docker using pacman
-sudo pacman -Syu --noconfirm docker docker-buildx docker-compose
+sudo pacman -S --noconfirm docker docker-buildx docker-compose
 yay -S lazydocker
 
 # Enable and start Docker service
