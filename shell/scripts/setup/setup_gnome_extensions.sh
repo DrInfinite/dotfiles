@@ -1,5 +1,5 @@
-yay -Sy extension-manager nwg-look catppuccin-gtk-theme-mocha
-sudo pacman -Sy python-pipx gum
+yay -Sy extension-manager --needed
+sudo pacman -Sy python-pipx gum --needed
 pipx install gnome-extensions-cli --system-site-packages --force
 
 # Turn off default Ubuntu extensions
