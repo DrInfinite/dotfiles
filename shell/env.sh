@@ -9,3 +9,7 @@ esac
 # pnpm end
 
 export ZELLIJ_AUTO_EXIT=true
+
+# Editor used by CLI
+export EDITOR="nvim"
+export SUDO_EDITOR="$EDITOR"
