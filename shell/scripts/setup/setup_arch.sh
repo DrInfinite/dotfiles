@@ -2,11 +2,10 @@
 sudo pacman -Syu
 
 # Setup the shell
-~/shell/scripts/setup/setup_yay.sh
 ~/shell/scripts/setup/setup_zsh.sh
-~/shell/scripts/setup/setup_font.sh
 ~/shell/scripts/setup/setup_firmware.sh
 ~/shell/scripts/setup/setup_programs.sh
+~/shell/scripts/setup/setup_webapps.sh
 ~/shell/scripts/setup/setup_docker.sh
 
 # setup gnome settings
