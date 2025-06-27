@@ -39,4 +39,3 @@ $if Bash
   # Coloring for Bash 4 tab completions.
   set colored-stats on
 $endif
-
