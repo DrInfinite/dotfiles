@@ -4,10 +4,10 @@
     "spacing": 0,
     "height": 26,
     "modules-left": [
-      "hyprland/workspaces"
+      "clock"
     ],
     "modules-center": [
-      "clock"
+      "hyprland/workspaces"
     ],
     "modules-right": [
       "bluetooth",
@@ -47,9 +47,10 @@
       "on-click": "alacritty -e btop"
     },
     "clock": {
-      "format": "{:%A %H:%M}",
-      "format-alt": "{:%d %B W%V %Y}",
-      "tooltip": false
+      "format": "{:%d %B %Y | %H:%M}",
+      "format-alt": "{:%A W%V}",
+      "tooltip": true,
+      "tooltip-format": "{:%A W%V}"
     },
     "network": {
       "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
@@ -61,7 +62,7 @@
       "tooltip-format-disconnected": "Disconnected",
       "interval": 3,
       "nospacing": 1,
-      "on-click": "alacritty -e iwctl"
+      "on-click": "iwgtk"
     },
     "battery": {
       "interval": 5,
