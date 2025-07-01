@@ -1,19 +1,1 @@
 colourful: true
-
-# Colors are in format of:
-# color/paletteRef (Description) #color code
-
-# Gold (Terminal Yellow) #ea9d34
-# Love (Terminal Red) #b4637a
-# Rose (Terminal Cyan) #d7827e
-# Base (Primary Background) #faf4ed
-# Iris (Terminal Magenta) #907aa9
-# Foam (Terminal Blue) #56949f
-# Pine (Terminal Green)  #286983
-# Text (High contrast foreground) #575279
-# Muted (Low Contrast Foreground) #9893a5
-# Subtle (Medium Contrast Foreground) #797593
-# Highlight Low (Low contrast highlight) #f4ede8
-# Highlight Med (Medium Contrast Highlight) #dfdad9
-# Highlight High (High Contrast Highlight) #cecacd
-
