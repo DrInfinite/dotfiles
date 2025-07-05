@@ -3,7 +3,7 @@ alias ls='eza -lh --group-directories-first --icons=auto --color=auto'
 alias lsa='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git --color=auto'
 alias lta='lt -a'
-alias ff="fzf --disabled --bind 'change:reload:rg {q} --preview 'bat --style=numbers --color=always {}'"
+alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias find='fd -H --color=always'
 alias cd='z'
 alias grep='rg --color=auto'
