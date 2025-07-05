@@ -33,7 +33,7 @@
         "9": "9",
         "active": "󱓻"
       },
-      "persistent_workspaces": {
+      "persistent-workspaces": {
         "1": [],
         "2": [],
         "3": [],
@@ -54,6 +54,7 @@
     },
     "network": {
       "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
+      "format" : "{icon}",
       "format-wifi" : "{icon}",
       "format-ethernet" : "󰀂",
       "format-disconnected" : "󰖪",
@@ -65,7 +66,6 @@
       "on-click": "iwgtk"
     },
     "battery": {
-      "interval": 5,
       "format": "{capacity}% {icon}",
       "format-discharging": "{icon}",
       "format-charging":    "{icon}",
