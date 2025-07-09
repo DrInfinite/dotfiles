@@ -14,7 +14,6 @@
       "network",
       "pulseaudio",
       "cpu",
-      "power-profiles-daemon",
       "battery"
     ],
     "hyprland/workspaces": {
@@ -67,7 +66,7 @@
       "tooltip-format-disconnected": "Disconnected",
       "interval": 3,
       "nospacing": 1,
-      "on-click": "iwgtk"
+      "on-click": "alacritty --class=Impala -e impala"
     },
     "battery": {
       "format": "{capacity}% {icon}",
