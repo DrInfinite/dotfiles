@@ -10,6 +10,6 @@ esac
 
 export ZELLIJ_AUTO_EXIT=true
 
-# Editor used by CLI
-export EDITOR="nvim"
-export SUDO_EDITOR="$EDITOR"
+# man pages
+export MANPAGER='nvim +Man! "+set number relativenumber"'
+export MANWIDTH=80
