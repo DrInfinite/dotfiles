@@ -11,7 +11,7 @@ This directory contains the dotfiles for my system, made available under the
 
 ## Sneak Peak
 
-![My Desktop Image](./assets/hyprland-config-catppuccin.png)
+![My Desktop Image](./assets/hyprland-config.png)
 
 ## Installation
 
