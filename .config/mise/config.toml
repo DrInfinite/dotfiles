@@ -2,5 +2,9 @@
 go = "latest"
 node = "lts"
 rust = "latest"
+ruby = "latest"
 
 [env]
+
+[settings]
+idiomatic_version_file_enable_tools = ["ruby"]
