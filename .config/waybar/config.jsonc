@@ -4,19 +4,15 @@
   "position": "bottom",
   "spacing": 0,
   "height": 26,
-  "modules-left": [
-    "hyprland/workspaces"
-  ],
-  "modules-center": [
-    "custom/music"
-  ],
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["custom/music"],
   "modules-right": [
     "bluetooth",
     "network",
     "pulseaudio",
     "cpu",
     "battery",
-    "clock"
+    "clock",
   ],
   "hyprland/workspaces": {
     "on-click": "activate",
@@ -33,15 +29,15 @@
       "9": "9",
       "urgent": "",
       "active": "",
-      "default": ""
+      "default": "",
     },
     "persistent-workspaces": {
       "1": [],
       "2": [],
       "3": [],
       "4": [],
-      "5": []
-    }
+      "5": [],
+    },
   },
   "custom/music": {
     "format": "  {}",
@@ -50,44 +46,40 @@
     "tooltip": false,
     "exec": "playerctl metadata --format='{{ title }} - {{ artist }}'",
     "on-click": "playerctl play-pause",
-    "max-length": 50
+    "max-length": 50,
   },
   "cpu": {
     "interval": 5,
     "format": "󰍛",
-    "on-click": "alacritty --class=Btop -e btop"
+    "on-click": "alacritty --class=Btop -e btop",
   },
   "clock": {
     "format": "󰥔 {:%H:%M}",
     "format-alt": "{:%A W%V}",
     "tooltip": true,
-    "tooltip-format": "{:%A W%V}"
+    "tooltip-format": "{:%A W%V}",
   },
   "network": {
-    "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
-    "format" : "{icon}",
-    "format-wifi" : "{icon}",
-    "format-ethernet" : "󰀂",
-    "format-disconnected" : "󰖪",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "format": "{icon}",
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰀂",
+    "format-disconnected": "󰖪",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "nospacing": 1,
-    "on-click": "iwgtk"
+    "on-click": "iwgtk",
   },
   "battery": {
     "format": "{capacity}% {icon}",
     "format-discharging": "{icon}",
-    "format-charging":    "{icon}",
-    "format-plugged":     "",
+    "format-charging": "{icon}",
+    "format-plugged": "",
     "format-icons": {
-      "charging": [
-        "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"
-      ],
-      "default": [
-        "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
-      ]
+      "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     },
     "format-full": "Charged ",
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
@@ -95,15 +87,15 @@
     "interval": 5,
     "states": {
       "warning": 20,
-      "critical": 10
-    }
+      "critical": 10,
+    },
   },
   "bluetooth": {
     "format": "",
     "format-disabled": "󰂲",
     "format-connected": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "GTK_THEME=Adwaita-dark blueberry"
+    "on-click": "GTK_THEME=Adwaita-dark blueberry",
   },
   "pulseaudio": {
     "format": "",
@@ -112,7 +104,7 @@
     "on-click": "GTK_THEME=Adwaita-dark pavucontrol",
     "tooltip-format": "Playing at {volume}%",
     "on-click-right": "pamixer -t",
-    "ignored-sinks": ["Easy Effects Sink"]
+    "ignored-sinks": ["Easy Effects Sink"],
   },
   "power-profiles-daemon": {
     "format": "{icon}",
@@ -120,9 +112,9 @@
     "tooltip": true,
     "format-icons": {
       "power-saver": "󰡳",
-      "balanced":     "󰊚",
-      "performance":  "󰡴"
-    }
+      "balanced": "󰊚",
+      "performance": "󰡴",
+    },
   },
   "custom/dropbox": {
     "format": "",
@@ -131,6 +123,6 @@
     "return-type": "text",
     "interval": 5,
     "tooltip": true,
-    "tooltip-format": "{}"
-  }
+    "tooltip-format": "{}",
+  },
 }
