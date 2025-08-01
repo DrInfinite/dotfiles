@@ -96,37 +96,37 @@
     {
       "type": "de",
       "key": " DE",
-      "keyColor": "red",
+      "keyColor": "blue",
     },
     {
       "type": "wm",
       "key": "│ ├",
-      "keyColor": "red",
+      "keyColor": "blue",
     },
     {
       "type": "wmtheme",
       "key": "│ ├󰉼",
-      "keyColor": "red",
+      "keyColor": "blue",
     },
     {
       "type": "icons",
       "key": "│ ├󰀻",
-      "keyColor": "red",
+      "keyColor": "blue",
     },
     {
       "type": "cursor",
       "key": "│ ├",
-      "keyColor": "red",
+      "keyColor": "blue",
     },
     {
       "type": "terminalfont",
       "key": "│ ├",
-      "keyColor": "red",
+      "keyColor": "blue",
     },
     {
       "type": "terminal",
       "key": "└ └",
-      "keyColor": "red",
+      "keyColor": "blue",
     },
     {
       "type": "custom",
