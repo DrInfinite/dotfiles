@@ -13,3 +13,5 @@ export ZELLIJ_AUTO_EXIT=true
 # man pages
 export MANPAGER='nvim +Man! "+set number relativenumber"'
 export MANWIDTH=80
+
+[ -f "/home/naparajith/.ghcup/env" ] && . "/home/naparajith/.ghcup/env" # ghcup-env

@@ -10,4 +10,4 @@ export PATH="$PATH:/home/naparajith/.local/bin"
 
 source "$HOME/shell/zsh/rc.sh"
 
-[ -f "/home/naparajith/.ghcup/env" ] && . "/home/naparajith/.ghcup/env" # ghcup-env
+# [[ $- == *i* ]] && bind -f ~/.config/inputrc
