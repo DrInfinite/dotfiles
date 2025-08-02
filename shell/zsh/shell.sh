@@ -14,3 +14,7 @@ else
   # Regular title setting for normal terminals
   PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
 fi
+
+# Set complete path
+export PATH="./bin:$HOME/.local/bin:$HOME/.local/share/omarchy/bin:$PATH"
+set +h
