@@ -16,15 +16,19 @@
   background-color: @background;
 }
 
+.modules-center {
+  background-color: @background;
+}
+
 .modules-right {
   margin-right: 8px;
   background-color: @background;
 }
 
-#custom-music {
-  padding: 0 1rem;
-  margin: 0 8px;
-}
+/* #custom-music { */
+/*   padding: 0 1rem; */
+/*   margin-left: 8px; */
+/* } */
 
 #workspaces,
 #custom-music {
@@ -35,6 +39,7 @@
   all: initial;
   padding: 0 6px;
   margin: 0 1.5px;
+  min-width: 9px;
 }
 
 #workspaces button.active {
@@ -50,13 +55,14 @@
 #bluetooth,
 #pulseaudio,
 #clock,
+#custom-music,
 #custom-power-menu {
   min-width: 12px;
   margin: 0 7.5px;
 }
 
 #custom-expand-icon {
-  margin-right: 12px;
+  margin-left: 12px;
 }
 
 tooltip {
