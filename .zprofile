@@ -1,1 +1,1 @@
-[[ -z $DISPLAY && $(tty) == /dev/tty1 ]] && exec Hyprland
+# [[ -z $DISPLAY && $(tty) == /dev/tty1 ]] && exec Hyprland
