@@ -55,7 +55,8 @@
 #pulseaudio,
 #clock,
 #custom-music,
-#custom-power-menu {
+#custom-power-menu,
+#custom-omarchy {
   min-width: 12px;
   margin: 0 7.5px;
 }
