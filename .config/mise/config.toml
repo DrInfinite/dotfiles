@@ -2,7 +2,8 @@
 go = "latest"
 node = "lts"
 rust = "latest"
-ruby = "latest"
+# ruby = "latest"
+zig = "latest"
 
 [env]
 
