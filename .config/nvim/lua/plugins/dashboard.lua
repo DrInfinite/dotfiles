@@ -1,11 +1,11 @@
 return {
-  "folke/snacks.nvim",
-  ---@type snacks.Config
-  opts = {
-    dashboard = {
-      preset = {
-        -- Used by the `header` section
-        header = [[
+    "folke/snacks.nvim",
+    ---@type snacks.Config
+    opts = {
+        dashboard = {
+            preset = {
+                -- Used by the `header` section
+                header = [[
 ███╗   ██╗ █████╗ ██████╗ ███████╗██╗   ██╗██╗███╗   ███╗
 ████╗  ██║██╔══██╗██╔══██╗██╔════╝██║   ██║██║████╗ ████║
 ██╔██╗ ██║███████║██████╔╝███████╗██║   ██║██║██╔████╔██║
@@ -13,7 +13,7 @@ return {
 ██║ ╚████║██║  ██║██║     ███████║ ╚████╔╝ ██║██║ ╚═╝ ██║
 ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚══════╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
 ]],
-      },
+            },
+        },
     },
-  },
 }

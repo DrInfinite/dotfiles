@@ -10,9 +10,9 @@ local autocmd = vim.api.nvim_create_autocmd
 augroup("JSMacros", { clear = true })
 
 autocmd("FileType", {
-  group = "JSMacros",
-  pattern = { "javascript", "typescript", "astro" },
-  callback = function()
-    vim.fn.setreg("l", "", "")
-  end,
+    group = "JSMacros",
+    pattern = { "javascript", "typescript", "astro" },
+    callback = function()
+        vim.fn.setreg("l", "", "")
+    end,
 })
