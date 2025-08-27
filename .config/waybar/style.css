@@ -7,8 +7,8 @@
   border: none;
   border-radius: 0;
   min-height: 0;
-  font-size: 14px;
   font-family: CaskaydiaMono Nerd Font;
+  font-size: 12px;
 }
 
 .modules-left {
@@ -26,12 +26,6 @@
   min-width: 9px;
 }
 
-#workspaces button.active {
-  padding: 0 16px;
-  border-radius: 4px;
-  border: 1px solid @foreground;
-}
-
 #workspaces button.empty {
   opacity: 0.5;
 }
@@ -42,10 +36,9 @@
 #network,
 #bluetooth,
 #pulseaudio,
-#clock,
 #custom-music,
-#custom-power-menu,
-#custom-omarchy {
+#custom-omarchy,
+#custom-update {
   min-width: 12px;
   margin: 0 7.5px;
 }
@@ -56,4 +49,16 @@
 
 tooltip {
   padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#clock {
+  margin-left: 8.75px;
+}
+
+.hidden {
+  opacity: 0;
 }
