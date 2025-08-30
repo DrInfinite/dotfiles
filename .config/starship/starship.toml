@@ -1,6 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = """$os\
+format = """$username\
 $directory\
 $git_branch\
 $git_status\
@@ -289,5 +289,4 @@ symbol = "zig "
 
 [username]
 show_always = true
-style_root = 'italic dimmed red'
-format = '[$user ]($style)'
+format = '[$user](bold italic blue) '
