@@ -126,22 +126,22 @@
     },
     {
       "type": "command",
-      "key": "  OS Age ",
+      "key": "󱦟 OS Age",
       "shell": "/bin/bash",
       "text": "~/.config/fastfetch/elapsed.sh",
       "keyColor": "magenta",
     },
     {
       "type": "command",
-      "key": "  Remain ",
+      "key": "󰞌 Remain ",
       "shell": "/bin/bash",
       "text": "~/.config/fastfetch/remaining.sh",
       "keyColor": "magenta",
     },
     {
       "type": "uptime",
-      "key": "  Uptime ",
-      "keyColor": "magenta"
+      "key": "󱫐 Uptime",
+      "keyColor": "magenta",
     },
     {
       "type": "custom",
