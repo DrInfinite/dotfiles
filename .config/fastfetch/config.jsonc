@@ -133,7 +133,7 @@
     },
     {
       "type": "command",
-      "key": "󰞌 Remain ",
+      "key": "󰞌 Ending",
       "shell": "/bin/bash",
       "text": "~/.config/fastfetch/remaining.sh",
       "keyColor": "magenta",
