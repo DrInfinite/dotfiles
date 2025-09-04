@@ -1,26 +1,5 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = """$username\
-$directory\
-$git_branch\
-$git_status\
-$c\
-$elixir\
-$elm\
-$golang\
-$gradle\
-$haskell\
-$java\
-$julia\
-$nodejs\
-$nim\
-$rust\
-$scala\
-$zig\
-$line_break\
-$character
-"""
-
 [character]
 success_symbol = "[>](bold green)"
 error_symbol = "[x](bold red)"
@@ -288,5 +267,5 @@ symbol = "terraform "
 symbol = "zig "
 
 [username]
-show_always = true
+show_always = false
 format = '[$user](bold italic blue) '
