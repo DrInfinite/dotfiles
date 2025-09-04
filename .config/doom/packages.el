@@ -48,12 +48,5 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 
-;; Add Catppuccin
 (package! catppuccin-theme)
-
-;; Add Evil Tutor (to better understand and learn Emacs Evil Mode)
-(package! evil-tutor)
-
-;; Add Org Bullets for better Org Mode rendering
 (package! org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))

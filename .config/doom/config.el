@@ -1,6 +1,7 @@
-(setq doom-font (font-spec :family "Monaspace Neon" :size 14 :weight 'medium)
-      doom-variable-pitch-font (font-spec :family "Monaspace Neon Var" :size 14)
-      doom-big-font (font-spec :family "Monaspace Neon" :size 24))
+(setq doom-font (font-spec :family "CaskaydiaMono Nerd Font" :size 14)
+      doom-variable-pitch-font (font-spec :family "Noto Sans" :size 14)
+      doom-serif-font (font-spec :family "Noto Serif" :size 14)
+      doom-big-font (font-spec :family "CaskaydiaMono Nerd Font" :size 24))
 
 (defun doom-dashboard-draw-ascii-banner-fn ()
   (let* ((banner
@@ -43,15 +44,21 @@
 (setq org-hide-emphasis-markers t)
 (add-hook 'org-mode-hook 'org-indent-mode)
 
+(custom-set-faces
+ '(org-document-title ((t (:inherit default :height 1.75))))
+ '(org-document-info ((t (:inherit default :height 1.3 :weight semibold))))
+ '(org-document-info-keyword ((t (:inherit default :height 1.2 :weight medium))))
+ )
+
 (setq org-startup-numerated t)
 
 (custom-set-faces
- '(org-level-1 ((t (:inherit outline-1 :height 1.6))))
- '(org-level-2 ((t (:inherit outline-2 :height 1.5))))
- '(org-level-3 ((t (:inherit outline-3 :height 1.4))))
- '(org-level-4 ((t (:inherit outline-4 :height 1.3))))
- '(org-level-5 ((t (:inherit outline-5 :height 1.2))))
- '(org-level-6 ((t (:inherit outline-6 :height 1.1))))
+ '(org-level-1 ((t (:inherit default :height 1.6))))
+ '(org-level-2 ((t (:inherit default :height 1.5))))
+ '(org-level-3 ((t (:inherit default :height 1.4))))
+ '(org-level-4 ((t (:inherit default :height 1.3))))
+ '(org-level-5 ((t (:inherit default :height 1.2))))
+ '(org-level-6 ((t (:inherit default :height 1.1))))
  )
 
 (define-key global-map (kbd "M-c") 'capitalize-dwim)
