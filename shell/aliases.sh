@@ -5,13 +5,23 @@ alias lt='eza --tree --level=2 --long --icons --git --color=auto'
 alias lta='lt -a'
 alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias find='fd -H --color=always'
-alias cd='z'
 alias grep='rg --color=auto'
 
 # Directories
+alias cd='zd'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+zd() {
+    if [ $# -eq 0 ]; then
+        builtin cd ~ && return
+    elif [ -d "$1" ]; then
+        builtin cd "$1" || return
+    else
+        z "$@" && printf "\U000F17A9 " && pwd || echo "Error: Directory not found"
+    fi
+}
 
 # Tools
 alias n='nvim'
