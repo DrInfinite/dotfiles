@@ -24,7 +24,7 @@ zd() {
 }
 
 # Tools
-alias n='nvim'
+n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
 alias d='docker'
 alias r='rails'
 alias lzg='lazygit'
