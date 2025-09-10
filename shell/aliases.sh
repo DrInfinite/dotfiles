@@ -25,7 +25,6 @@ zd() {
 
 # Tools
 alias n='nvim'
-alias g='git'
 alias d='docker'
 alias r='rails'
 alias lzg='lazygit'
@@ -35,6 +34,7 @@ alias cat='bat'
 alias man='wikiman'
 
 # Git
+alias g='git'
 alias gcm='git commit -m'
 alias gcam='git commit -a -m'
 alias gcad='git commit -a --amend'
