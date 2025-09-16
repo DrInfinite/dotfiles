@@ -19,3 +19,4 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Snippets
 zinit snippet OMZP::archlinux
+zinit snippet OMZP::mise
