@@ -1,3 +1,4 @@
+#!/usr/bin/env zsh
 # Auto Completions
 # source /usr/share/bash-completion/bash_completion
 

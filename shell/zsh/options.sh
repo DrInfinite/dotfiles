@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 # History
 ## Variables
 HISTSIZE=5000
