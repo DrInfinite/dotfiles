@@ -144,7 +144,7 @@ symbol = "ml "
 symbol = "opa "
 
 [os]
-disabled = false
+disabled = true
 style = "bold blue"
 
 [os.symbols]
