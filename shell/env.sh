@@ -8,7 +8,7 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-export ZELLIJ_AUTO_EXIT=true
+# export ZELLIJ_AUTO_EXIT=true
 
 # man pages
 export MANPAGER='nvim +Man! "+set number relativenumber"'
