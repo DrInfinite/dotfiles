@@ -1,10 +1,11 @@
 # My dotfiles
 
+<!--toc:start-->
+
 - [My dotfiles](#my-dotfiles)
-  - [Requirements](#requirements)
-    - [Git](#git)
-    - [Stow](#stow)
-  - [Installation](#installation)
+  - [Sneak Peak](#sneak-peak)
+  - [Installation](#installation) - [Arch Linux](#arch-linux)
+  <!--toc:end-->
 
 This directory contains the dotfiles for my system, made available under the
 [MIT License](./LICENSE) for personal, professional and commercial use without warranty.
@@ -19,19 +20,7 @@ This directory contains the dotfiles for my system, made available under the
 
 If you want a one to one re-creation of my system, follow the below steps:
 
-1. [Download](https://archlinux.org/download/) the Arch Linux ISO
-2. Follow [this guide](https://wiki.archlinux.org/title/USB_flash_installation_medium#Inadvisable_methods) to create a USB flash installation medium
-3. Boot into the installation medium and follow [this guide](https://manuals.omamix.org/2/the-omarchy-manual/50/getting-started) to install Arch Linux
-4. After installation, execute the script mentioned in the above guide, or displayed [here](https://omarchy.org/)
-5. Clone the dotfiles repo in your $HOME directory using git, as shown below
-
-```sh
-git clone https://github.com/DrInfinite/dotfiles.git ~/dotfiles --depth 1
-cd ~/dotfiles
-```
-
-6. Then use GNU stow to create the symlinks
-
-```sh
-stow .
-```
+1. Follow [this guide](https://manuals.omamix.org/2/the-omarchy-manual/50/getting-started) to download the Omarchy ISO and create a bootable USB.
+2. Install Arch Linux with the Omarchy wrapper.
+3. Clone the dotfiles repo in your $HOME directory using git.
+4. Then use [GNU stow](https://www.gnu.org/software/stow/) to create the symlinks
