@@ -1,8 +1,9 @@
-return {
+local snacks_dashboard = {
     "folke/snacks.nvim",
     ---@type snacks.Config
     opts = {
         dashboard = {
+            enabled = true,
             preset = {
                 -- Used by the `header` section
                 header = [[
@@ -17,3 +18,5 @@ return {
         },
     },
 }
+
+return snacks_dashboard
