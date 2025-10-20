@@ -2,7 +2,6 @@
 go = "latest"
 node = "lts"
 rust = "latest"
-ruby = "latest"
 deno = "latest"
 
 [settings]
