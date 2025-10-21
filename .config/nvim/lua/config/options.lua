@@ -12,3 +12,7 @@ vim.cmd([[set guicursor=n-v-c-sm-i-ci:block,ve:ver25,r-cr-o:hor20]])
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
+
+-- Line numbers with relative numbering
+vim.o.number = true
+vim.o.relativenumber = true
