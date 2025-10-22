@@ -1,3 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+#------------------------------------------------
+# Script: setup_font.sh
+# Purpose: Setup monaspace from GitHub as one of the fonts
+# Usage: ./setup_font.sh
+#------------------------------------------------
+
 # Set the target directory
 TARGET_DIR="$HOME/Downloads/monaspace"
 
@@ -11,9 +21,9 @@ if [ $? -ne 0 ]; then
 fi
 
 # Run the install script
-cd "$TARGET_DIR"
+cd "$TARGET_DIR" || exit
 zsh "./util/install_linux.sh"
-cd -
+cd - || exit
 
 # Check if the script ran successfully
 if [ $? -ne 0 ]; then
