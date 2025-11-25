@@ -16,3 +16,6 @@ vim.opt.tabstop = 2
 -- Line numbers with relative numbering
 vim.o.number = true
 vim.o.relativenumber = true
+
+-- provided by rust-analyzer.
+vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
