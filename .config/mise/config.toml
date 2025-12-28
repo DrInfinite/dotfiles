@@ -1,6 +1,6 @@
 [tools]
 go = "latest"
-node = "lts"
+node = "latest"
 deno = "latest"
 
 [settings]
