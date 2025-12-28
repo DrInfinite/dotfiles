@@ -1,7 +1,7 @@
 require("lspconfig").tailwindcss.setup({
-    settings = {
-        tailwindCSS = {
-            classFunctions = { "cva", "cx" },
-        },
+  settings = {
+    tailwindCSS = {
+      classFunctions = { "cva", "cx" },
     },
+  },
 })
