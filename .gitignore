@@ -5,3 +5,4 @@
 kewlibrary
 
 .config/gh/**/*
+.config/tmux/plugins/**/*
