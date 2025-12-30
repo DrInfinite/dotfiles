@@ -8,6 +8,9 @@ IFS=$'\n\t'
 # Usage: ./setup_programs.sh
 #------------------------------------------------
 
+# Source the correct Omarchy repos
+omarchy-channel-set stable
+
 # GUI applications (official repos)
 official_gui_pkgs=(
     thunderbird      # Email client with graphical interface
