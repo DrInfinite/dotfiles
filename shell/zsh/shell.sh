@@ -2,9 +2,6 @@
 # Auto Completions
 # source /usr/share/bash-completion/bash_completion
 
-# Keybindings
-bindkey -e
-
 # Completions
 source /usr/share/wikiman/widgets/widget.zsh
 
