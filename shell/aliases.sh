@@ -45,3 +45,12 @@ alias setup_arch="~/shell/scripts/setup/setup_arch.sh"
 alias setup_firmware="~/shell/scripts/setup/setup_firmware.sh"
 alias setup_emacs="~/shell/scripts/setup/programs/setup_emacs.sh"
 alias doom="~/.config/emacs/bin/doom"
+
+# Suffix Aliases
+alias -s md=cat
+alias -s json=cat
+alias -s toml=cat
+alias -s js='$EDITOR'
+alias -s ts='$EDITOR'
+alias -s go='$EDITOR'
+alias -s rs='$EDITOR'
