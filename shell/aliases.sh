@@ -8,7 +8,6 @@ alias find='fd -H --color=always'
 alias grep='rg --color=auto'
 
 # Directories
-alias cd='zd'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
