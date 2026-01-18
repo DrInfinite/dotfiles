@@ -34,10 +34,10 @@ For example:
 Defining my system-wide font-faces
 
 #+begin_src emacs-lisp
-(setq doom-font (font-spec :family "CaskaydiaMono Nerd Font" :size 14)
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14)
       doom-variable-pitch-font (font-spec :family "Noto Sans" :size 14)
       doom-serif-font (font-spec :family "Noto Serif" :size 14)
-      doom-big-font (font-spec :family "CaskaydiaMono Nerd Font" :size 24))
+      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 24))
 #+end_src
 
 If you or Emacs can't find your font, use 'M-x describe-font' to look them up,

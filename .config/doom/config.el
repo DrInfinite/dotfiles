@@ -1,7 +1,7 @@
-(setq doom-font (font-spec :family "CaskaydiaMono Nerd Font" :size 14)
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14)
       doom-variable-pitch-font (font-spec :family "Noto Sans" :size 14)
       doom-serif-font (font-spec :family "Noto Serif" :size 14)
-      doom-big-font (font-spec :family "CaskaydiaMono Nerd Font" :size 24))
+      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 24))
 
 (defun doom-dashboard-draw-ascii-banner-fn ()
   (let* ((banner
