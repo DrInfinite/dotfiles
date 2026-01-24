@@ -25,14 +25,14 @@
                "\n"))
      'face 'doom-dashboard-banner)))
 
-(custom-set-faces!
-  '(doom-dashboard-banner :foreground "#89b4fa"))
+(custom-set-faces! `(doom-dashboard-banner :foreground , (doom-color 'blue)))
 
-(setq doom-theme 'catppuccin)
-(setq catppuccin-flavor 'mocha) ;; can be 'latte, 'frappe, 'macchiato, or 'mocha
+(setq doom-theme 'doom-gruvbox)
 
 (setq-default cursor-type 'box)
 (setq evil-insert-state-cursor 'box)
+
+(add-to-list 'default-frame-alist '(alpha-background . 90))
 
 (setq display-line-numbers-type 'relative)
 

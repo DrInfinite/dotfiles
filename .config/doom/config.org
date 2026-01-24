@@ -10,6 +10,7 @@
   - [[#dashboard][Dashboard]]
   - [[#theme][Theme]]
   - [[#cursor][Cursor]]
+  - [[#transparency][Transparency]]
 - [[#evil-mode-settings][Evil Mode Settings]]
 - [[#org-mode-settings][Org Mode Settings]]
   - [[#document-settings][Document Settings]]
@@ -79,8 +80,7 @@ ASCII Art
 Setup colours to match Vim and Fastfetch
 
 #+begin_src emacs-lisp
-(custom-set-faces!
-  '(doom-dashboard-banner :foreground "#89b4fa"))
+(custom-set-faces! `(doom-dashboard-banner :foreground , (doom-color 'blue)))
 #+end_src
 
 ** Theme
@@ -91,8 +91,7 @@ available. You can either set `doom-theme' or manually load a theme with the
 Set global theme based on installed packages
 
 #+begin_src emacs-lisp
-(setq doom-theme 'catppuccin)
-(setq catppuccin-flavor 'mocha) ;; can be 'latte, 'frappe, 'macchiato, or 'mocha
+(setq doom-theme 'doom-gruvbox)
 #+end_src
 
 ** Cursor
@@ -101,6 +100,12 @@ Set the cursor as a block cursor for insert mode
 #+begin_src emacs-lisp
 (setq-default cursor-type 'box)
 (setq evil-insert-state-cursor 'box)
+#+end_src
+
+** Transparency
+
+#+begin_src emacs-lisp
+(add-to-list 'default-frame-alist '(alpha-background . 90))
 #+end_src
 
 * Evil Mode Settings
