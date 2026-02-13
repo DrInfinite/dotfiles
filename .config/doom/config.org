@@ -17,6 +17,8 @@
   - [[#document-settings][Document Settings]]
   - [[#keybindings][Keybindings]]
   - [[#extensions][Extensions]]
+- [[#plugins][Plugins]]
+  - [[#treemacs][Treemacs]]
 - [[#notes][Notes]]
 
 * Appearance
@@ -229,6 +231,21 @@ Set different font sizes for the headlines within org-mode
 
 #+begin_src emacs-lisp
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+#+end_src
+
+* Plugins
+
+Update settings for plugins
+
+** Treemacs
+
+Update settings for Treemacs
+
+*** Keybindings
+
+#+begin_src emacs-lisp
+(map! :leader :desc "UnbindTreemacs" "o p" nil)
+(map! :leader :desc "Project Sidebar" "e" #'+treemacs/toggle)
 #+end_src
 
 * Notes

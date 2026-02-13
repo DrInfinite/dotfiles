@@ -83,3 +83,6 @@
 (define-key global-map (kbd "M-l") 'downcase-dwim)
 
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+(map! :leader :desc "UnbindTreemacs" "o p" nil)
+(map! :leader :desc "Project Sidebar" "e" #'+treemacs/toggle)
