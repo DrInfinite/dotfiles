@@ -1,28 +1,35 @@
-(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14)
-      doom-variable-pitch-font (font-spec :family "Noto Sans" :size 14)
-      doom-serif-font (font-spec :family "Noto Serif" :size 14)
-      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 24))
+(setq doom-font (font-spec :family "Monaspace Neon NF" :size 14)
+      doom-variable-pitch-font (font-spec :family "Monaspace Xenon NF" :size 14)
+      doom-serif-font (font-spec :family "Monaspace Xenon NF" :size 14)
+      doom-big-font (font-spec :family "Monaspace Neon NF" :size 24))
 
 (defun doom-dashboard-draw-ascii-banner-fn ()
   (let* ((banner
-          '("███████╗███╗   ██╗ █████╗ ██████╗ ███████╗"
-            "██╔════╝████╗  ██║██╔══██╗██╔══██╗██╔════╝"
-            "█████╗  ██╔██╗ ██║███████║██████╔╝███████╗"
-            "██╔══╝  ██║╚██╗██║██╔══██║██╔═══╝ ╚════██║"
-            "███████╗██║ ╚████║██║  ██║██║     ███████║"
-            "╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚══════╝"
-            "                                          "
-            "                 E M A C S                "))
+          '("__| |__________________________________________| |__"
+            "__   __________________________________________   __"
+            "  | |                                          | |  "
+            "  | |███████╗███╗   ██╗ █████╗ ██████╗ ███████╗| |  "
+            "  | |██╔════╝████╗  ██║██╔══██╗██╔══██╗██╔════╝| |  "
+            "  | |█████╗  ██╔██╗ ██║███████║██████╔╝███████╗| |  "
+            "  | |██╔══╝  ██║╚██╗██║██╔══██║██╔═══╝ ╚════██║| |  "
+            "  | |███████╗██║ ╚████║██║  ██║██║     ███████║| |  "
+            "  | |╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚══════╝| |  "
+            "__| |__________________________________________| |__"
+            "__   __________________________________________   __"
+            "  | |                                          | |  "
+            "                                                    "
+            "                                                    "))
          (longest-line (apply #'max (mapcar #'length banner))))
     (put-text-property
      (point)
      (dolist (line banner (point))
-       (insert (+doom-dashboard--center
-                +doom-dashboard--width
-                (concat
-                 line (make-string (max 0 (- longest-line (length line)))
-                                   32)))
-               "\n"))
+       (insert
+        (+doom-dashboard--center
+         +doom-dashboard--width
+         (concat
+          line
+          (make-string (max 0 (- longest-line (length line))) 32)))
+        "\n"))
      'face 'doom-dashboard-banner)))
 
 (custom-set-faces! `(doom-dashboard-banner :foreground , (doom-color 'blue)))
