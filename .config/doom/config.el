@@ -39,6 +39,23 @@
 (setq-default fill-column 80)
 (add-hook 'prog-mode-hook #'display-fill-column-indicator-mode)
 
+(custom-set-faces
+ '(markdown-header-face ((t (:inherit font-lock-function-name-face :family 'doom-font ))))
+ '(markdown-header-face-1 ((t (:inherit markdown-header-face :height 1.6))))
+ '(markdown-header-face-2 ((t (:inherit markdown-header-face :height 1.5))))
+ '(markdown-header-face-3 ((t (:inherit markdown-header-face :height 1.4))))
+ '(markdown-header-face-4 ((t (:inherit markdown-header-face :height 1.3))))
+ '(markdown-header-face-5 ((t (:inherit markdown-header-face :height 1.2))))
+ '(markdown-header-face-6 ((t (:inherit markdown-header-face :height 1.1))))
+ )
+
+(defun naps/toggle-markdown-view-mode ()
+  "Toggle between `markdown-mode' and `markdown-view-mode'"
+  (interactive)
+  (if (eq major-mode 'markdown-view-mode)
+      (markdown-mode)
+    (markdown-view-mode)))
+
 (setq org-directory "~/Documents/org/")
 
 (setq org-hide-emphasis-markers t)
