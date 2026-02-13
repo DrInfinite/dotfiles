@@ -39,7 +39,6 @@ alias gcam='git commit -a -m'
 alias gcad='git commit -a --amend'
 
 # Custom
-alias on="~/shell/scripts/obsidian/new-note.sh"
 alias setup_font="~/shell/scripts/setup/setup_font.sh"
 alias setup_arch="~/shell/scripts/setup/setup_arch.sh"
 alias setup_firmware="~/shell/scripts/setup/setup_firmware.sh"
