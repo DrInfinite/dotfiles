@@ -49,3 +49,4 @@
 ;; (unpin! t)
 
 (package! org-bullets)
+(package! catppuccin-theme)

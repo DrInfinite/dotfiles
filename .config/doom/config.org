@@ -91,7 +91,7 @@ available. You can either set `doom-theme' or manually load a theme with the
 Set global theme based on installed packages
 
 #+begin_src emacs-lisp
-(setq doom-theme 'doom-gruvbox)
+(setq doom-theme 'catppuccin)
 #+end_src
 
 ** Cursor
