@@ -68,12 +68,6 @@
 (setq org-hide-emphasis-markers t)
 (add-hook 'org-mode-hook 'org-indent-mode)
 
-(custom-set-faces
- '(org-document-title ((t (:inherit default :height 1.75))))
- '(org-document-info ((t (:inherit default :height 1.3 :weight semibold))))
- '(org-document-info-keyword ((t (:inherit default :height 1.2 :weight medium))))
- )
-
 (setq org-startup-numerated t)
 
 (custom-set-faces
