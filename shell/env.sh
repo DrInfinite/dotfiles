@@ -14,4 +14,13 @@ esac
 export MANPAGER='nvim +Man! "+set number relativenumber"'
 export MANWIDTH=80
 
-[ -f "/home/naparajith/.ghcup/env" ] && . "/home/naparajith/.ghcup/env" # ghcup-env
+# cargo
+. "$HOME/.cargo/env"
+# cargo end
+
+# Created by `pipx` on 2025-05-04 17:53:10
+export PATH="$PATH:/home/naparajith/.local/bin"
+
+# bun
+export PATH="$HOME/.cache/.bun/bin:$PATH"
+# bun end
