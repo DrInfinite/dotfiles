@@ -105,7 +105,8 @@ Set global theme based on installed packages
 #+begin_src emacs-lisp
 ;; (setq doom-theme 'catppuccin)
 ;; (setq doom-theme 'doom-vibrant)
-(setq doom-theme 'almost-mono-white)
+(setq doom-theme 'almost-mono-black)
+;; (setq doom-theme 'almost-mono-white)
 #+end_src
 
 ** Cursor
