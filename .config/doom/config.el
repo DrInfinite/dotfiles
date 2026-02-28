@@ -35,7 +35,8 @@
 (custom-set-faces! `(doom-dashboard-banner :foreground , (doom-color 'blue)))
 
 ;; (setq doom-theme 'catppuccin)
-(setq doom-theme 'doom-vibrant)
+;; (setq doom-theme 'doom-vibrant)
+(setq doom-theme 'almost-mono-white)
 
 (setq-default cursor-type 'box)
 (setq evil-insert-state-cursor 'box)

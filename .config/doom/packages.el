@@ -49,4 +49,5 @@
 ;; (unpin! t)
 
 (package! org-bullets)
-(package! catppuccin-theme)
+;;(package! catppuccin-theme)
+(package! almost-mono-themes)
