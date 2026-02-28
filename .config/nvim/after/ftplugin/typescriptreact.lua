@@ -1,1 +1,1 @@
-vim.b.completion = true
+vim.b.completion = false
