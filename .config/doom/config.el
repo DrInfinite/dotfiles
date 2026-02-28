@@ -1,7 +1,7 @@
-(setq doom-font (font-spec :family "Monaspace Neon NF" :size 14)
-      doom-variable-pitch-font (font-spec :family "Monaspace Xenon NF" :size 14)
-      doom-serif-font (font-spec :family "Monaspace Xenon NF" :size 14)
-      doom-big-font (font-spec :family "Monaspace Neon NF" :size 24))
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14)
+      doom-variable-pitch-font (font-spec :family "Liberation Sans" :size 14)
+      doom-serif-font (font-spec :family "Liberation Serif" :size 14)
+      doom-big-font (font-spec :family "JetBrainsMono Nerd Font" :size 24))
 
 (defun doom-dashboard-draw-ascii-banner-fn ()
   (let* ((banner
