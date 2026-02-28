@@ -5,4 +5,4 @@ export LC_ALL=en_IN.UTF-8
 # Editor used by CLI
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
