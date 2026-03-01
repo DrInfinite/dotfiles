@@ -1,3 +1,4 @@
 [tools]
 node = "latest"
 bun = "latest"
+zig = "latest"
