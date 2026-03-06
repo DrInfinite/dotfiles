@@ -8,4 +8,4 @@ bindkey -s '^Xgro' 'git remote add origin git@github.com:'
 bindkey ' ' magic-space
 
 # Keybindings
-bindkey -e
+bindkey -v
