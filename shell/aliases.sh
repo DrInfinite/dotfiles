@@ -1,9 +1,26 @@
 # File system
-alias ls='eza -lh --group-directories-first --icons=auto --color=auto'
-alias lsa='ls -a'
-alias lt='eza --tree --level=2 --long --icons --git --color=auto'
-alias lta='lt -a'
-alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
+if command -v eza &>/dev/null; then
+  alias ls='eza -lh --group-directories-first --icons=auto'
+  alias lsa='ls -a'
+  alias lt='eza --tree --level=2 --long --icons --git'
+  alias lta='lt -a'
+fi
+
+if [[ "$TERM" == "xterm-kitty" ]]; then
+  alias ff="fzf --preview 'case \$(file --mime-type -b {}) in image/*) kitty icat --clear --transfer-mode=memory --stdin=no --place=\${FZF_PREVIEW_COLUMNS}x\${FZF_PREVIEW_LINES}@0x0 {} ;; *) bat --style=numbers --color=always {} ;; esac'"
+else
+  alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
+fi
+alias eff='$EDITOR "$(ff)"'
+sff() {
+  if [ $# -eq 0 ]; then
+    echo "Usage: sff <destination> (e.g. sff host:/tmp/)"
+    return 1
+  fi
+  local file
+  file=$(find . -type f -printf '%T@\t%p\n' | sort -rn | cut -f2- | ff) && [ -n "$file" ] && scp "$file" "$1"
+}
+
 alias find='fd -H --color=always'
 alias grep='rg --color=auto'
 
@@ -12,26 +29,38 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-zd() {
-    if [ $# -eq 0 ]; then
-        builtin cd ~ && return
-    elif [ -d "$1" ]; then
-        builtin cd "$1" || return
+if command -v zoxide &>/dev/null; then
+  # alias cd="zd"
+  zd() {
+    if (($# == 0)); then
+      builtin cd ~ || return
+    elif [[ -d $1 ]]; then
+      builtin cd "$1" || return
     else
-        z "$@" && printf "\U000F17A9 " && pwd || echo "Error: Directory not found"
+      if ! z "$@"; then
+        echo "Error: Directory not found"
+        return 1
+      fi
+
+      printf "\U000F17A9 "
+      pwd
     fi
-}
+  }
+fi
+
+open() (
+  xdg-open "$@" >/dev/null 2>&1 &
+)
 
 # Tools
-n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
-alias d='docker'
-alias r='rails'
+alias cat='bat'
 alias ff='fastfetch'
 alias lzg='lazygit'
 alias lzd='lazydocker'
-alias vim='nvim'
-alias cat='bat'
 alias man='wikiman'
+n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
+alias t='tmux'
+alias vim='nvim'
 
 # Git
 alias g='git'
