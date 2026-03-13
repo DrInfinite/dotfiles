@@ -66,13 +66,13 @@
       "type": "command",
       "key": "\ue900 OS",
       "keyColor": "blue",
-      "text": "version=$(omarchy-version); echo \"Omarchy $version\""
+      "text": "version=$(omarchy-version); echo \"NapsOS $version\"",
     },
     {
       "type": "command",
       "key": "│ ├󰘬",
       "keyColor": "blue",
-      "text": "branch=$(omarchy-version-branch); echo \"$branch\""
+      "text": "branch=$(omarchy-version-branch); echo \"$branch\"",
     },
     {
       "type": "command",

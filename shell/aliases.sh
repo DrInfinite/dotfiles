@@ -26,6 +26,7 @@ zd() {
 n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
 alias d='docker'
 alias r='rails'
+alias ff='fastfetch'
 alias lzg='lazygit'
 alias lzd='lazydocker'
 alias vim='nvim'
