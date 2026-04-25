@@ -1,11 +1,10 @@
 {
-  "timeStamp": 1774771670464,
+  "timeStamp": 1776162287671,
   "version": "1.70.0",
   "userSettings": {
-    "externalLists": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt\nhttps://nsfw.oisd.nl/\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/arapurayil/aBL/main/filters/nsfw.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt\nhttps://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt",
+    "externalLists": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/arapurayil/aBL/main/filters/nsfw.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt\nhttps://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt",
     "importedLists": [
       "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt",
-      "https://nsfw.oisd.nl/",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
       "https://raw.githubusercontent.com/arapurayil/aBL/main/filters/nsfw.txt",
@@ -14,7 +13,9 @@
       "https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt",
       "https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt",
       "https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt",
-      "https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt"
+      "https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt"
     ],
     "popupPanelSections": 31
   },
@@ -40,22 +41,23 @@
     "ublock-annoyances",
     "IND-0",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt",
     "https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt",
-    "https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt",
     "https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt",
-    "https://raw.githubusercontent.com/arapurayil/aBL/main/filters/nsfw.txt",
     "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
-    "https://nsfw.oisd.nl/"
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
     "chrome-extension-scheme",
-    "moz-extension-scheme",
-    "www.duolingo.com"
+    "dc1673c7-65a5-4da4-b7a9-18c222b5dc2e.moz-extension-scheme",
+    "store.epicgames.com",
+    "www.duolingo.com",
+    "www.epicgames.com"
   ],
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",

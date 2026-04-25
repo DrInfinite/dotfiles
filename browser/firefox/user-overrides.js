@@ -20,7 +20,7 @@ user_pref("browser.download.always_ask_before_handling_new_types", true);
 
 /** FIREFOX SYNC & VIEW ***/
 // PREF: disable Firefox Sync
-user_pref("identity.fxaccounts.enabled", false);
+// user_pref("identity.fxaccounts.enabled", false);
 // PREF: disable the Firefox View tour from popping up
 user_pref("browser.firefox-view.feature-tour", '{"screen":"","complete":true}');
 
