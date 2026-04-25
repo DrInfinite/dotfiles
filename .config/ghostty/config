@@ -1,8 +1,9 @@
 # Dynamic theme colors
-config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+# config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+theme = GitHub Light Default
 
 # Font
-font-family = "Liberation Mono"
+font-family = "Literation Mono"
 font-style = Regular
 font-size = 11
 
