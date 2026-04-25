@@ -19,3 +19,6 @@ vim.o.relativenumber = true
 
 -- provided by rust-analyzer.
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
+
+-- set system clipboard
+vim.cmd([[set clipboard+=unnamedplus]])
