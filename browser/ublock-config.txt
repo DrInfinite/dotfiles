@@ -1,8 +1,8 @@
 {
-  "timeStamp": 1776162287671,
+  "timeStamp": 1777187807868,
   "version": "1.70.0",
   "userSettings": {
-    "externalLists": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/arapurayil/aBL/main/filters/nsfw.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt\nhttps://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt",
+    "externalLists": "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/arapurayil/aBL/main/filters/nsfw.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt\nhttps://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/clean_reading_experience.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_clear_view.txt",
     "importedLists": [
       "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
@@ -15,7 +15,10 @@
       "https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt",
       "https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt",
       "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt",
-      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt"
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/clean_reading_experience.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_clear_view.txt"
     ],
     "popupPanelSections": 31
   },
@@ -45,11 +48,13 @@
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt",
     "https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/annoyance_list.txt",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/youtube_clear_view.txt",
     "https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt",
     "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt",
-    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/personal.txt"
+    "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/clean_reading_experience.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
