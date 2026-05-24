@@ -10,7 +10,8 @@ iso2sd() {
   local drive="$2"
 
   if [[ -z $drive ]]; then
-    local available_sds=$(lsblk -dpno NAME | grep -E '/dev/sd')
+    local available_sds
+    available_sds=$(lsblk -dpno NAME | grep -E '/dev/sd')
 
     if [[ -z $available_sds ]]; then
       echo "No SD drives found and no drive specified"
