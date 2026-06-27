@@ -1,9 +1,8 @@
 # Dynamic theme colors
-# config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
-theme = Atom One Dark
+config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
 
 # Font
-font-family = "Literation Mono"
+font-family = "Liberation Mono"
 font-style = Regular
 font-size = 12
 

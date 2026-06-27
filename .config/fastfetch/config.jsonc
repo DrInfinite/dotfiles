@@ -72,7 +72,7 @@
       "type": "command",
       "key": "│ ├󰘬",
       "keyColor": "blue",
-      "text": "branch=$(omarchy-version-branch); echo \"$branch\"",
+      "text": "branch=$(omarchy-version-branch); echo \"$branch\""
     },
     {
       "type": "command",

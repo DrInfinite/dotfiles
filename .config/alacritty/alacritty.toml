@@ -10,7 +10,7 @@ osc52 = "CopyPaste"
 normal = { family = "Liberation Mono" }
 bold = { family = "Liberation Mono" }
 italic = { family = "Liberation Mono" }
-size = 11
+size = 12
 
 [window]
 padding.x = 14
