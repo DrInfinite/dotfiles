@@ -1,5 +1,5 @@
 [tools]
-node = "latest"
-bun = "latest"
-zig = "latest"
 go = "latest"
+node = "lts"
+python = "latest"
+rust = "1"
